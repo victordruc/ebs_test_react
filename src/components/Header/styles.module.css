@@ -1,0 +1,25 @@
+.header {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 4px #a5a0a0;
+}
+
+.link_wrapper {
+  position: relative;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.link_wrapper .cart_qty {
+  position: absolute;
+  padding: 0.35em 0.65em;
+  right: -8px;
+  background-color: #1976d2;
+  color: #ffffff;
+  border-radius: 50rem;
+  font-size: 0.75em;
+  bottom: -12px;
+}
